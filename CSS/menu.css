@@ -1,0 +1,68 @@
+/*define as cores como variáveis*/
+
+:root {
+    --cor-fundo: #7623b9;
+    --cor-hover: #cd9aff;
+    /*cor de fundo das ul*/
+    ;
+    --cor-primaria: #000000;
+}
+
+/**/
+.menu ul {
+    list-style-type: none;
+    padding: 5;
+
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+
+}
+
+.menu ul li a {
+    /*define a cor do texto dos menus*/
+    color: var(--cor-primaria);
+    /*retira o sublinhado dos links*/
+    text-decoration: none;
+    /*alinha os links em linha*/
+    display: inline-block;
+    /**/
+    padding: 10px;
+    /**/
+    transition: background .3s;
+    /**/
+}
+
+.menu ul li a:hover {
+    /*background-color: var(--cor-hover);   coloca hover nos menus e submenus*/
+    width: auto;
+}
+
+/*sub menu*/
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px
+}
+
+.menu ul ul li a {
+    display: block;
+    background-color: #BD7DFF;
+    /*cor de fundo dos submmenus*/
+}
+
+.menu ul ul li a:hover {
+
+    background-color: var(--cor-hover);
+    /*coloca hover apenas nos submenus*/
+}
