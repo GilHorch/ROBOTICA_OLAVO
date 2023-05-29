@@ -25,3 +25,9 @@ h2 {
 text-align: justify;
 
 }
+
+/*Centralizar textos*/
+.txtjust{
+  text-align: center;
+  
+  }
