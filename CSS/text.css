@@ -1,33 +1,32 @@
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap');
 
 /*Defione a fonde dos elementod de dentro do body*/
 body {
-    font-family: 'Roboto Mono', monospace;
-    background: #14B6BA;
-    width: 100%;
-    color: black;
+  font-family: 'Roboto Mono', monospace;
+  background: #14B6BA;
+  width: 100%;
+  color: black;
 }
 
 /*estiliza tosos os títulos h1*/
 h1 {
-    text-align: center;
-    font-size: 14pt;
+  text-align: center;
+  font-size: 14pt;
 }
+
 h2 {
   text-align: center;
   font-size: 12pt;
 }
+
 /*Justificar textos*/
-.txtjust{
-text-align: justify;
+.txtjust {
+  text-align: justify;
 
 }
 
 /*Centralizar textos*/
-.txtjust{
+.txtcenter {
   text-align: center;
-  
-  }
+
+}
